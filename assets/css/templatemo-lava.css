@@ -147,7 +147,7 @@ a.main-button-slider {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #fba70b;
+  background-color: #354f52;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -247,15 +247,15 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #1e1e1e!important;
+  color: #84A98C!important;
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #fba70b!important;
+  color: #2f3e46!important;
 }
 
 .background-header .nav li a.active {
-  color: #fba70b!important;
+  color: #2f3e46!important;
 }
 
 .header-area {
@@ -631,7 +631,7 @@ header
     height: auto !important;
   }
   .header-area .main-nav .nav li.submenu:after {
-    color: #3B566E;
+    color: #3b566e;
     right: 25px;
     font-size: 14px;
     top: 15px;
@@ -653,6 +653,9 @@ header
 welcome
 --------------------------------------------- 
 */
+
+
+
 .welcome-area {
   width: 100%;
   height: 100vh;
@@ -669,18 +672,19 @@ welcome
   transform: perspective(1px) translateY(-30%) !important;
 }
 
+/*Modified here*/
 .welcome-area .header-text h1 {
   font-weight: 900;
   font-size: 52px;
   line-height: 80px;
   letter-spacing: 1px;
   margin-bottom: 30px;
-  color: #191a20;
+  color: #84a98c;
 }
 
 .welcome-area .header-text h1 em {
   font-style: normal;
-  color: #fba70b;
+  color: #354f52;
 }
 
 .welcome-area .header-text p {
