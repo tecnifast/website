@@ -159,14 +159,14 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #f1556a;
+  background-color: #84a98c;
 }
 
 a.main-button {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #f4813f;
+  background-color: #354f52;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -178,7 +178,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #f1556a;
+  background-color: #84a98c;
 }
 
 button.main-button {
@@ -188,7 +188,7 @@ button.main-button {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #f4813f;
+  background-color: #354f52;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -200,7 +200,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #f1556a;
+  background-color: #84a98c;
 }
 
 
@@ -292,10 +292,10 @@ header
 
 
 .header-area .main-nav .nav {
-  float: left;
+  float: right;
   margin-top: 27px;
   margin-left: 15%;
-  margin-right: 0px;
+  margin-right: 20px;
   background-color: #fff;
   padding: 0px 20px;
   -webkit-transition: all 0.3s ease 0s;
@@ -553,8 +553,9 @@ header
 
 @media (max-width: 991px) {
   .logo {
-    text-align: center;
-    float: none!important;
+    text-align: left;
+    /*float: none!important;
+    border: 3px solid #da3636;*/  
   }
   .header-area {
     background-color: #f7f7f7;
@@ -568,6 +569,7 @@ header
   }
   .header-area .logo {
     margin-left: 30px;
+    
   }
   .header-area .menu-trigger {
     display: block !important;
@@ -652,7 +654,7 @@ header
 ---------------------------------------------
 welcome
 --------------------------------------------- 
-*/
+  */
 
 
 
@@ -663,7 +665,10 @@ welcome
   background-image: url(../images/banner-bg.png);
   background-repeat: no-repeat;
   background-position: right top;
+
 }
+
+
 
 .welcome-area .header-text .left-text {
   position: relative;
@@ -676,7 +681,7 @@ welcome
 .welcome-area .header-text h1 {
   font-weight: 900;
   font-size: 52px;
-  line-height: 80px;
+  line-height: 70px;
   letter-spacing: 1px;
   margin-bottom: 30px;
   color: #84a98c;
@@ -729,6 +734,7 @@ welcome
 }
 @media (max-width: 810px) {
   .welcome-area {
+    margin-top: 50px;
     background-size: contain;
   }
 
@@ -775,7 +781,7 @@ about
   left: 45px;
   font-size: 100px;
   font-weight: 600;
-  color: #fdefe9;
+  color: #cad2c593;
 }
 
 .features-item img {
