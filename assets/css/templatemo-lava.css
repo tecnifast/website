@@ -205,7 +205,10 @@ button.main-button:hover {
 
 
 .center-heading {
-  margin-bottom: 70px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  /*border: 3px solid #da3636;*/
+  
 }
 
 .center-heading h2 {
@@ -214,18 +217,24 @@ button.main-button:hover {
   font-size: 42px;
   font-weight: 700;
   color: #1e1e1e;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
+  /*border: 3px solid #6736da;*/
 }
 
 .center-heading h2 em {
   font-style: normal;
-  color: #f4813f;
+  color: #84a98c;
+  /*border: 3px solid #dabc36;*/
 }
 
 .center-heading p {
-  font-size: 15px;
+  font-size: 22px;
   color: #888;
   text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 23px;
+  /*border: 3px solid #36c1da;*/
 }
 
 
@@ -756,7 +765,7 @@ about
 */
 
 #about {
-  padding: 100px 0px;
+  padding: 10px 0px;
   position: relative;
   z-index: 9;
 }
@@ -988,8 +997,8 @@ footer
 }
 
 footer {
-  margin-top: 200px;
-  padding-top: 120px;
+  margin-top: 80px;
+  padding-top: 80px;
   background-image: url(../images/footer-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -1070,7 +1079,7 @@ footer .right-content {
 
 .footer-content .right-content h2 em {
   font-style: normal;
-  color: #fba70b;
+  color: #2f3e46;
 }
 
 .footer-content .right-content p {
@@ -1081,7 +1090,7 @@ footer .right-content {
   color: #FFF;
 }
 
-.footer-content .right-content a:hover {
+.footer-content .xent a:hover {
   color: #FC3;
 }
 
@@ -1117,8 +1126,8 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #fba70b;
-  border-color: #fba70b;
+  background-color: #354f52;
+  border-color: #354f52;
   color: #fff;
 }
 
